@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sdsdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-sdsdot@esm/index.mjs';
+import sdsdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-sdsdot@v0.1.1-esm/index.mjs';
 ```
 
 #### sdsdot.main( N, scalar, x, strideX, y, strideY )
@@ -296,7 +296,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import sdsdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-sdsdot@esm/index.mjs';
+import sdsdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-sdsdot@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
